@@ -1,0 +1,283 @@
+
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --azul-botao: #167Bf7;
+    --cor-fundo: #00030c;
+    --fonte-principal: 'Inter';
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--branco-principal);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+
+    background-image: url(imgs/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__titulo {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+.container__botao {
+    display: block;
+    background-color: var(--azul-botao);
+    text-decoration: none;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+}
+
+.container__botao__plus {
+
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+
+}
+
+.container__aviso {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    margin: 1em 0 2em 0;
+}
+
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__secundario {
+    display: flex;
+    align-items: center;
+    margin: 0 10em;
+    
+}
+
+.secundario__imagem {
+
+    width: 60%;
+
+}
+
+.container__descricao {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__titulo {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+margin-bottom: 0.1em;
+color: var(--branco-principal);
+
+}
+
+.secundario__paragrafo {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: var(--cinza-secundario);
+}
+
+.terceiro__container {
+    display: flex;
+    align-items: center;
+    margin: 0 10em;
+   
+}
+
+.terceiro__descricao {
+    width: 50%;
+}
+
+.terceiro__texto {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--cinza-secundario);
+margin-bottom: 1em;
+}
+
+.terceiro__botao {
+    display: inline-block;
+    background-color: var(--azul-botao);
+    text-decoration: none;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+
+}
+
+.terceiro__imagem {
+    margin: 0 8em;
+}
+
+.container__quarto {
+    display: flex;
+    align-items: center;
+    margin: 0 10em;
+    
+}
+
+.quarto__imagem {
+
+    width: 55%;
+
+}
+
+.container_quarto {
+    display: flex;
+    align-items: center;
+    margin: 10em 10em;
+}
+
+.quarto__titulo {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+margin-bottom: 0.1em;
+color: var(--branco-principal);
+
+}
+
+.quarto__paragrafo {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: var(--cinza-secundario);
+}
+
+.dispositivos {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.dispositivos__titulo {
+font-size: 48px;
+color: var(--branco-principal);
+    
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+    padding: 0;
+  
+    
+}
+
+.lista__item {
+font-size: 32px;
+color: var(--branco-principal);
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 18px;
+    margin-bottom: 2em;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--branco-principal);
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.rodape__texto {
+    text-align: center;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    
+    
+}
+
+.rodape__texto__fim {
+    padding-bottom: 6em;
+    text-align: center;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.lista__links a:hover {
+    color: #167Bf7;
+}
+
+.lista__links a:active {
+    color: aqua;
+}
